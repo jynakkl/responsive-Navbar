@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    text-decoration: none;
+    list-style: none;
+    border: 0px;
+}
+
+header 
+{
+    background: #4942E4;
+    z-index: -1;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header #navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+header #navbar ul
+{
+    display: flex;
+    
+}
+
+header #navbar ul li
+{
+    padding: 0 2.75rem;
+    height: 50px;
+    border-radius:3px;
+    align-items: center;
+    line-height: 50px;
+}
+
+header #navbar ul li a
+{
+    color: #fff;
+}
+
+header #navbar button
+{
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor:grab;
+    padding-left: 10px;
+    text-align: center;
+}
+
+header #navbar ul li a
+{
+    font-size: 15px;
+}
+
+header #navbar ul li:hover
+{
+    background:#5047F5;
+     display: flex;
+    align-items: center;
+}
+
+i{
+    padding-left: 10px;
+}
+
+
+.left-navbar
+{
+    bottom: 0;
+    position:absolute;
+    height: 100%;
+    padding-top: 30px;
+    background-color: #5049F9;
+    width: 20vw;
+    z-index: 1;
+}
+
+.left-navbar a
+{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.left-navbar span
+{
+    color:gainsboro;
+    cursor: grab;
+    /* opacity: 0.7; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.left-navbar span i{
+    padding-top: 4px;
+}
+
+.left-navbar ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 1.65vw;
+    border-radius: 3px;
+}
+
+.left-navbar ul li{
+    margin-top: 20px;
+    height: 50px;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-navbar ul li:hover
+{
+    background: #5047F1;
+}
+
+.left-navbar ul li a i{
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.left-navbar-close{
+    display: none;
+}
